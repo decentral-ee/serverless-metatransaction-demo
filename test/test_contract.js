@@ -1,14 +1,14 @@
-const MetraTransactable = artifacts.require("./MetraTransactable.sol");
-const { signVaultUpdateRequest } = require("../serverless/utils");
+const MetaTransactable = artifacts.require("./MetaTransactable.sol");
+const { signVaultUpdateRequest } = require("../utils");
 const { shouldFail } = require("openzeppelin-test-helpers");
 
-contract("MetraTransactable", accounts => {
+contract("MetaTransactable contract", accounts => {
     let admin = accounts[0];
     let userHavingEther = accounts[1];
     let m;
 
     before(async () => {
-        m = await MetraTransactable.deployed();
+        m = await MetaTransactable.deployed();
     });
 
     it("update vault without meta transaction", async () => {

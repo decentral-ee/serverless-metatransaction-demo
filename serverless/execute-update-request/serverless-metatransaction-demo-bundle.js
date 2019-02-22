@@ -1,0 +1,1 @@
+../build/serverless-metatransaction-demo-bundle.js

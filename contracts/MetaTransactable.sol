@@ -1,6 +1,6 @@
 pragma solidity ^0.5.0;
 
-contract MetraTransactable {
+contract MetaTransactable {
 
     struct Vault {
         uint64 nonce;
