@@ -1,0 +1,19 @@
+{
+  "name": "serverless-metatransaction-demo",
+  "version": "1.0.0",
+  "description": "Ethereum metatransaction using serverless",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "openzeppelin-test-helpers": "^0.1.2",
+    "web3": "1.0.0-beta.37",
+    "truffle": "^5.0.5"
+  },
+  "scripts": {
+    "test": "truffle test"
+  },
+  "author": "Miao ZhiCheng <miao.decentral.ee>",
+  "license": "MIT"
+}
